@@ -1,0 +1,9 @@
+{
+  "name": "static-site-template",
+  "version": "0.1.0",
+  "description": "Good practise opinionated template for building static sites using GatsbyJS",
+  "repository": "https://github.com/grendel-consulting/static-site-template.git",
+  "author": "ramirezj <ramirezj@users.noreply.github.com>",
+  "license": "MIT",
+  "private": false
+}
