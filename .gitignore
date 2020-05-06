@@ -1,0 +1,18 @@
+# Dependencies
+node_modules
+package-lock.json
+!/yarn.lock
+
+# Anything OS or IDE specific from contributers
+.DS_Store
+.idea/
+.vscode/
+*.sw*
+
+# Logs, Local Caches and Ephemera
+logs
+*.log
+.cache/
+pids
+*.pid
+*.seed
