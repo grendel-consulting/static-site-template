@@ -36,5 +36,12 @@
       "pre-commit": "standard --fix | snazzy",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
+  },
+  "renovate": {
+    "extends": [
+      "config:base",
+      ":pinAllExceptPeerDependencies",
+      "schedule:nonOfficeHours"
+    ]
   }
 }
