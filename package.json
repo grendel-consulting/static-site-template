@@ -5,5 +5,11 @@
   "repository": "https://github.com/grendel-consulting/static-site-template.git",
   "author": "ramirezj <ramirezj@users.noreply.github.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "standard-version": "^7.1.0"
+  },
+  "scripts": {
+    "release": "standard-version"
+  }
 }
