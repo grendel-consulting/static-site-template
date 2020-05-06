@@ -39,7 +39,9 @@
   },
   "renovate": {
     "extends": [
-      "config:base"
+      "config:base",
+      ":pinAllExceptPeerDependencies",
+      "schedule:nonOfficeHours"
     ]
   }
 }
