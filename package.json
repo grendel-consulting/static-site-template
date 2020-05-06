@@ -7,13 +7,13 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
-    "@commitlint/cli": "^8.3.5",
-    "@commitlint/config-conventional": "^8.3.4",
-    "husky": "^4.2.5",
-    "snazzy": "^8.0.0",
-    "standard": "^14.3.3",
-    "standard-markdown": "^6.0.0",
-    "standard-version": "^7.1.0"
+    "@commitlint/cli": "8.3.5",
+    "@commitlint/config-conventional": "8.3.4",
+    "husky": "4.2.5",
+    "snazzy": "8.0.0",
+    "standard": "14.3.3",
+    "standard-markdown": "6.0.0",
+    "standard-version": "7.1.0"
   },
   "scripts": {
     "format": "standard --fix",
