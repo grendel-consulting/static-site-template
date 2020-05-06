@@ -1,6 +1,6 @@
 {
   "name": "static-site-template",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Good practise opinionated template for building static sites using GatsbyJS",
   "repository": "https://github.com/grendel-consulting/static-site-template.git",
   "author": "ramirezj <ramirezj@users.noreply.github.com>",
@@ -43,14 +43,20 @@
       ":pinAllExceptPeerDependencies",
       "schedule:nonOfficeHours"
     ],
-    "labels": ["dependencies"],
+    "labels": [
+      "dependencies"
+    ],
     "postUpdateOptions": [
       "yarnDedupeHighest"
     ],
-    "timezone":"Europe/London",
+    "timezone": "Europe/London",
     "vulnerabilityAlerts": {
-      "labels": ["security"],
-      "assignees": ["@ramirezj"]
+      "labels": [
+        "security"
+      ],
+      "assignees": [
+        "@ramirezj"
+      ]
     }
   }
 }
