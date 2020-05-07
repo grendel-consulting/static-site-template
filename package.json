@@ -14,7 +14,9 @@
     "snazzy": "8.0.0",
     "standard": "14.3.3",
     "standard-markdown": "6.0.0",
-    "standard-version": "8.0.0"
+    "standard-version": "8.0.0",
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0"
   },
   "scripts": {
     "format": "standard --fix",
@@ -32,6 +34,9 @@
       ]
     }
   },
+  "stylelint": {
+    "extends": "stylelint-config-standard"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
@@ -39,7 +44,8 @@
     }
   },
   "lint-staged": {
-    "*.{js,jsx}": "standard --fix | snazzy"
+    "*.{js,jsx}": "standard --fix | snazzy",
+    "*.{css}": "stylelint --allow-empty-input"
   },
   "renovate": {
     "extends": [
