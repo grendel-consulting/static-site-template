@@ -1,6 +1,6 @@
 {
   "name": "static-site-template",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Good practise opinionated template for building static sites using GatsbyJS",
   "repository": "https://github.com/grendel-consulting/static-site-template.git",
   "author": "ramirezj <ramirezj@users.noreply.github.com>",
@@ -44,10 +44,16 @@
     }
   },
   "lint-staged": {
-    "*.{css}": [ "prettier --write", "stylelint --fix --allow-empty-input"],
+    "*.{css}": [
+      "prettier --write",
+      "stylelint --fix --allow-empty-input"
+    ],
     "*.{js,jsx}": "standard --fix | snazzy",
     "*.{json}": "prettier --write",
-    "*.{md}": ["prettier --write", "standard-markdown"]
+    "*.{md}": [
+      "prettier --write",
+      "standard-markdown"
+    ]
   },
   "renovate": {
     "extends": [
