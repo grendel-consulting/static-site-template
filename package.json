@@ -13,7 +13,7 @@
     "lint-staged": "10.2.2",
     "prettier": "2.0.5",
     "snazzy": "8.0.0",
-    "standard": "14.3.3",
+    "standard": "14.3.4",
     "standard-markdown": "6.0.0",
     "standard-version": "8.0.0",
     "stylelint": "13.3.3",
