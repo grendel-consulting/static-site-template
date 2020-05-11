@@ -10,4 +10,5 @@ jobs:
       - uses: actions/checkout@1.0.0
       - uses: lannonbr/issue-label-manager-action@2.0.0
         env:
+          # Relies on .github/labels.json
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
