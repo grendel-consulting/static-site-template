@@ -1,6 +1,12 @@
 name: reconfirm-labels
 
-on: issues
+on:
+  issues:
+  push:
+    branches:
+      - master
+    paths:
+      - '.github/labels.json'
 
 jobs:
   labels:
