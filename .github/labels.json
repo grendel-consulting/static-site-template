@@ -6,6 +6,7 @@
   { "color": "#859900", "name": "help-wanted", "description": ""},
   { "color": "#859900", "name": "beginner", "description": ""},
   { "color": "#cb4b16", "name": "more-information-needed", "description": ""},
+  { "color": "#cb4b16", "name": "unsupported-environment", "description": ""},
   { "color": "#cb4b16", "name": "needs-reproduction", "description": ""},
   { "color": "#dc322f", "name": "blocked", "description": ""},
   { "color": "#fdf6e3", "name": "duplicate", "description": ""},
