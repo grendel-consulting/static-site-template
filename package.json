@@ -16,7 +16,7 @@
     "standard": "14.3.4",
     "standard-markdown": "6.0.0",
     "standard-version": "9.0.0",
-    "stylelint": "13.6.1",
+    "stylelint": "13.7.0",
     "stylelint-config-standard": "20.0.0"
   },
   "scripts": {
