@@ -20,7 +20,7 @@
     "stylelint-config-standard": "20.0.0"
   },
   "resolutions": {
-    "yargs-parser": "^13.1.2"
+    "yargs-parser": "13.1.2"
   },
   "scripts": {
     "release": "standard-version"
