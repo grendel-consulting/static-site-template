@@ -17,14 +17,16 @@
     "standard-markdown": "6.0.0",
     "standard-version": "9.0.0",
     "stylelint": "13.8.0",
-    "stylelint-config-standard": "20.0.0"
+    "stylelint-config-standard": "20.0.0",
+    "snyk": "^1.258.1"
   },
   "resolutions": {
     "y18n": "5.0.5",
     "yargs-parser": "20.2.4"
   },
   "scripts": {
-    "release": "standard-version"
+    "release": "standard-version",
+    "test": "snyk test"
   },
   "engines": {
     "node": ">=0.10"
