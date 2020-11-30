@@ -3,8 +3,7 @@ name: reconfirm-labels
 on:
   issues:
   push:
-    branches:
-      - master
+    branches: [main]
     paths:
       - '.github/labels.json'
 
