@@ -22,7 +22,7 @@
   },
   "resolutions": {
     "y18n": "5.0.5",
-    "yargs-parser": "20.2.4"
+    "yargs-parser": "20.2.6"
   },
   "scripts": {
     "release": "standard-version",
