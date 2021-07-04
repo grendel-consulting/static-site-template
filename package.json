@@ -24,7 +24,7 @@
     "glob-parent": "^6.0.0",
     "handlebars": "^4.7.7",
     "hosted-git-info": "^3.0.8",
-    "lodash": "^4.17.21",
+    "lodash": "4.17.21",
     "netmask": "^2.0.2",
     "path-parse": "^1.0.7",
     "trim-newlines": "^3.0.1",
