@@ -91,6 +91,14 @@
     "labels": [
       "dependencies"
     ],
+    "packageRules": [
+      {
+        "depTypeList": [
+          "resolutions"
+        ],
+        "rangeStrategy": "widen"
+      }
+    ],
     "postUpdateOptions": [
       "yarnDedupeHighest"
     ],
